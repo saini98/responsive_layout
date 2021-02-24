@@ -13,14 +13,14 @@
 <body> 
     <div class="container" >
     
-    <nav >
+    <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars" onclick="toggleMenu()"></i>
         </label>
         <label class="logo">Responsive layout</label>
-        <ul>
-            <i class="far fa-times-circle" id="close"></i>
+        <ul id="menu">
+            <i class="far fa-times-circle" id="close" onclick="toggleMenu()"></i>
             <li><a class="active" href="#">Home</a> </li>
             <li><a href="#">Media</a></li>
             <li><a href="#">Element</a></li>    
